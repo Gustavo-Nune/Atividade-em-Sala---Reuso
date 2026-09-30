@@ -93,20 +93,14 @@ class Moto(Veiculo):#subclasse
 if __name__ =="__main__":
     
     c1 = Carro("Gol","azul",2000,"1.8 ap",5)
-    #print(c1.ficha_tecnica())
 
     c2 = Carro("Uno","vermelho",2010,"1.3 fire", 15)
-    #print(c2.ficha_tecnica())
     
     c3 = Carro("Fusca","preto", 1970,"1300 boxer")
-    #print(c3.ficha_tecnica())
     
     m1 = Moto("Cg", "Branca", 2010, 150, 15)
-    #print(m1.ficha_tecnica())
     
     lista = [c1,c2,c3,m1]
-    
-    v = Veiculo("","",0000,0)
     
     for v in lista:
         print(v.ficha_tecnica())
